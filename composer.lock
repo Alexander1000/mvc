@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "900aa997fd78f360a0c52cb27a895d52",
+    "content-hash": "9ad2943862c89ec77f8bdf75af82e576",
+    "packages": [
+        {
+            "name": "router",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Alexander1000/router.git",
+                "reference": "e75a1ff3ce389c3dcfd8dac4879472564a78c467"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Alexander1000/router/zipball/e75a1ff3ce389c3dcfd8dac4879472564a78c467",
+                "reference": "e75a1ff3ce389c3dcfd8dac4879472564a78c467",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Router\\": "src/Router",
+                    "Tests\\": "tests"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "router library",
+            "support": {
+                "source": "https://github.com/Alexander1000/router/tree/0.0.5",
+                "issues": "https://github.com/Alexander1000/router/issues"
+            },
+            "time": "2016-10-14 13:19:16"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0.0"
+    },
+    "platform-dev": []
+}
